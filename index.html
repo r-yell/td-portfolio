@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- add emoji to title -->
+    <title>Ariel Mazo</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cinzel+Decorative:wght@400;700;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- NAV -->
+    <nav class="main-nav">
+        <!-- Desktop nav links -->
+        <ul class="nav-links-container no-bullets">
+            <li><a href="#top" class="nav-link pointer-cursor">TOP</a></li>
+            <li><a href="#work" class="nav-link pointer-cursor">WORK</a></li>
+            <li><a href="#contact" class="nav-link pointer-cursor">CONTACT</a></li>
+        </ul>
+
+        <nav class="nav-bar">
+            <!-- Mobile menu button -->
+            <div class="mobile-menu-btn pointer-cursor">
+                <svg id="hamburger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.33 38.09">
+                    <rect width="34.33" height="7.22"/>
+                    <rect y="15.44" width="34.33" height="7.22"/>
+                    <rect y="30.87" width="34.33" height="7.22"/>
+                </svg>
+            </div>
+            
+            <!-- Light & Dark Mode Buttons -->
+            <div class="dark-light-btn-container">
+                <button class="mode-btn pointer-cursor" id="darkModeBtn"></button>
+                <button class="mode-btn pointer-cursor" id="lightModeBtn"></button>
+                <p class="mode-alert">
+                    <!-- dark/light mode alert shows up here -->
+                </p>
+            </div>
+        </nav>
+    </nav>
+
+    <!-- MOBILE MENU POPUP -->
+    <aside class="mobile-menu-popup">
+        <p class="mobile-nav-link pointer-cursor"><a href="#top">TOP</a></p>
+        <p class="mobile-nav-link pointer-cursor"><a href="#work">WORK</a></p>
+        <p class="mobile-nav-link pointer-cursor"><a href="#contact">CONTACT</a></p>
+        <p class="mobile-nav-link pointer-cursor" id="close-nav-btn">CLOSE</p>
+    </aside>
+
+    <!-- TITLE -->
+    <section id="title">
+        <div class="title-container">
+            <div class="title-text">
+                <p class="title-text-small"><span class="initial-letter-small">A</span>RIEL MAZO</p>
+                <h2 class="title-text"><span class="initial-letter">T</span>EXTILE DESIGNER</h2>
+                <h2 class="title-text"><span class="initial-letter">I</span>LLUSTRATOR</h2>
+            </div>
+        </div>
+        <div class="title-background"></div>
+    </section>
+
+    <!-- SPLASH IMG -->
+     <section class="splash-img" id="top"></section>
+
+    <!-- WORK SECTION -->
+    <main class="work-container" id="work">
+   
+        <div class="work-heading-container">
+            <h1 class="work-heading">WORK</h1>
+        </div>
+        
+        <div class="work-grid">
+            <!-- Projects will show up here -->
+        </div>
+    </main>
+
+    <!-- PROJECT DETAIL POPUP -->
+    <aside class="project-detail-popup">
+        <!-- mask to cover background contents while detail popup is active -->
+        <div class="mask"></div>
+        <div class="project-detail-container">
+            <div class="project-detail-gallery" id="project-gallery">
+                <!-- project images will show up here -->
+            </div>
+
+            <div class="project-detail-text">
+                <div class="gallery-tag-container">
+                    <ul class="tag-container no-bullets" id="galleryTagContainer">
+                        <!-- tags will show up here -->
+                    </ul>
+
+                    <button class="next-project-btn pointer-cursor">NEXT</button>
+                </div>
+
+                <p class="description" id="project-description-container">
+                    <!-- project description will show up here -->
+                </p>
+                <button class="close-btn pointer-cursor">CLOSE</button>
+            </div>
+        </div>
+    </aside>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <div class="contact-links">
+
+            <!-- email -->
+            <div class="contact-container pointer-cursor" id="email-container">
+                <div class="icon-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 58.1 49.6">
+                        <g class="icon" id="email-icon">
+                            <path d="M49.9,0H8.2C3.7,0,0,3.7,0,8.2v33.2c0,4.5,3.7,8.2,8.2,8.2h41.7c4.5,0,8.2-3.7,8.2-8.2V8.2c0-4.5-3.7-8.2-8.2-8.2ZM49.4,7.4l-19.7,19.3c-.3.3-.8.3-1.1,0L8.8,7.4h40.6ZM49.9,42.2H8.2c-.4,0-.8-.3-.8-.8v-24.9l16,15.6c1.6,1.5,3.6,2.3,5.7,2.3s4.1-.8,5.7-2.3l15.9-15.5v24.9c0,.4-.3.8-.8.8Z"/>
+                        </g>
+                    </svg>
+                </div>
+                <p class="email-btn contact-link">EMAIL</p>
+            </div>
+
+            <!-- linkedin -->
+            <div class="contact-container pointer-cursor" id="linkedin-container">
+                <div class="icon-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 58.1 49.6">
+                        <g class="icon" id="linkedin-icon">
+                            <path d="M49.9,0H8.2C3.7,0,0,3.7,0,8.2v33.2C0,45.9,3.7,49.6,8.2,49.6h41.7c4.5,0,8.2-3.7,8.2-8.2V8.2C58.1,3.7,54.4,0,49.9,0ZM20,41.1c0,.3-.3.6-.6.6h-7.3c-.3,0-.6-.3-.6-.6v-23.3c0-.3.3-.6.6-.6h7.3c.3,0,.6.3.6.6v23.3ZM15.8,15.2c-2.6,0-4.8-2.1-4.8-4.8s2.1-4.8,4.8-4.8,4.8,2.2,4.8,4.8-2.2,4.8-4.8,4.8ZM47.2,41.1c0,.3-.3.6-.6.6h-7.2c-.3,0-.6-.3-.6-.6v-11.3c0-3.2-.2-5.6-3.2-5.6s-3.8,1.5-3.8,5.4v11.5c0,.3-.3.6-.6.6h-7.2c-.3,0-.6-.3-.6-.6v-23.3c0-.3.3-.6.6-.6h6.9c.3,0,.6.3.6.6v1.5c1.3-1.4,3.5-2.7,6.4-2.7,8.2,0,9.3,5.9,9.3,11.7v12.8Z"/>
+                        </g>
+                    </svg>
+                </div>
+                <p class="linkedin-btn contact-link">LINKEDIN</p>
+            </div>
+
+            <!-- phone -->
+            <div class="contact-container pointer-cursor" id="phone-container">
+                <div class="icon-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 58.1 49.6">
+                        <g class="icon" id="phone-icon">
+                            <path d="M49.9,0H8.2C3.7,0,0,3.7,0,8.2v33.3c0,4.5,3.7,8.2,8.2,8.2h41.8c4.5,0,8.2-3.7,8.2-8.2V8.2C58.1,3.7,54.4,0,49.9,0ZM45.8,32v-.2c-.9,1.8-2.8,4.8-5.5,6.4-.3.2-.5.2-.8.2-4,0-8.8-.6-16.5-6.4-7.7-5.8-9.7-10.2-10.9-14,0-.3,0-.5,0-.8.7-3,3.2-5.8,4.5-7.1s1.5-.6,2.2,0c2.4,1.8,4.4,4.5,5.2,6.3.3.5,0,1.1-.3,1.7l-1.8,2.2c-.4.4-.4.9-.2,1.4.9,1.9,2.7,4.1,4.8,5.8,2.1,1.7,4.8,2.7,6.9,3,.5,0,1-.2,1.2-.5l1.6-2.4c.4-.5.9-.8,1.5-.7,1.9.2,5.2,1.4,7.6,3.1.7.5.9,1.4.5,2.1Z"/>
+                        </g>
+                    </svg>
+                </div>
+                <p class="phone-btn contact-link">PHONE</p>
+            </div>
+
+        </div>
+
+        <footer class="footer-img"></footer>
+    </section>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
