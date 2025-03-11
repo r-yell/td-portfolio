@@ -143,7 +143,7 @@ const projectInfo = {
         tags: ['ILLUSTRATION', 'REPEAT DESIGN', 'CHILDRENSWEAR', 'ACCESSORIES', 'APPAREL'],
         description: 'Description of project goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed.',
         images: ['riviera1.jpg', 'riviera2.jpg', 'riviera3.jpg', 'riviera4.png'],
-        video: '/rivieraProject.mp4'
+        video: '/td-portfolio/img/work/rivieraProject/rivieraProject.mp4'
     },
 
     checkLeopardProject: {
