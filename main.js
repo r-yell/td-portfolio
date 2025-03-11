@@ -501,7 +501,7 @@ function showProjectDetail(projectName) {
             const video = document.createElement('video');
 
             // set video source & playback settings
-            video.setAttribute('src', `/img/work/${projectName}/${projectName}.mp4`);
+            video.setAttribute('src', `/td-portfolio/img/work/${projectName}/${projectName}.mp4`);
             video.setAttribute('loop', '');
             video.setAttribute('muted', '');
             video.setAttribute('autoplay', '');
