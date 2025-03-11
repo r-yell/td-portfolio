@@ -245,7 +245,7 @@ h2 {
 
 .splash-img, 
 .footer-img {
-    background-image: url(/img/ExplorerPrint.png);
+    background-image: url(/td-portfolio/img/ExplorerPrint.png);
     transition: background-image .05s ease-in-out;
 }
 
