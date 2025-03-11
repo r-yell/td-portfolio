@@ -743,7 +743,7 @@ body.dark-mode
 /* SPLASH IMG - Dark Mode */
 body.dark-mode .splash-img,
 body.dark-mode .footer-img {
-    background-image: url(/img/BeachPrint.png);
+    background-image: url(/td-portfolio/img/BeachPrint.png);
 }
 
 /* WORK SECTION - Dark Mode */
