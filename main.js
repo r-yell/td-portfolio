@@ -121,7 +121,7 @@ const projectInfo = {
         projectName: 'scarfPrintProject',
         tags: ['ILLUSTRATION', 'REPEAT DESIGN', 'CHILDRENSWEAR', 'ACCESSORIES', 'APPAREL'],
         description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        images: ['scarf1.png', 'scarf2.png', 'scarf3.png', 'scarf4.png', 'scarf5.png', 'scarf6.png', 'scarf7.png', 'scarf8.png'],
+        images: ['Scarf1.png', 'Scarf2.png', 'Scarf3.png', 'Scarf4.png', 'Scarf5.png', 'Scarf6.png', 'Scarf7.png', 'Scarf8.png'],
     },
 
     postcardProject: {
