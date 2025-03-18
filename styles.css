@@ -245,7 +245,7 @@ h2 {
 
 .splash-img, 
 .footer-img {
-    background-image: url(/td-portfolio/img/ExplorerPrint.png);
+    background-image: url(./img/ExplorerPrint.png);
     transition: background-image .05s ease-in-out;
 }
 
@@ -743,7 +743,7 @@ body.dark-mode
 /* SPLASH IMG - Dark Mode */
 body.dark-mode .splash-img,
 body.dark-mode .footer-img {
-    background-image: url(/td-portfolio/img/BeachPrint.png);
+    background-image: url(./img/BeachPrint.png);
 }
 
 /* WORK SECTION - Dark Mode */

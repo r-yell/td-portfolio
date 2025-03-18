@@ -143,7 +143,7 @@ const projectInfo = {
         tags: ['ILLUSTRATION', 'REPEAT DESIGN', 'CHILDRENSWEAR', 'ACCESSORIES', 'APPAREL'],
         description: 'Description of project goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed.',
         images: ['riviera1.jpg', 'riviera2.jpg', 'riviera3.jpg', 'riviera4.png'],
-        video: '/td-portfolio/img/work/rivieraProject/rivieraProject.mp4'
+        video: './img/work/rivieraProject/rivieraProject.mp4'
     },
 
     checkLeopardProject: {
@@ -476,8 +476,8 @@ function showProjectDetail(projectName) {
             // add the 'gallery-img' class to the <img> element
             img.classList.add('gallery-img');
 
-            // add the image source to the <img> element
-            img.src = `img/work/${projectName}/${image}`;
+            // add the image source to the <img> element using relative path
+            img.src = `./img/work/${projectName}/${image}`;
 
             // add <img> element to new <div> element
             div.appendChild(img);
@@ -501,7 +501,7 @@ function showProjectDetail(projectName) {
             const video = document.createElement('video');
 
             // set video source & playback settings
-            video.setAttribute('src', `/td-portfolio/img/work/${projectName}/${projectName}.mp4`);
+            video.setAttribute('src', `./img/work/${projectName}/${projectName}.mp4`);
             video.setAttribute('loop', '');
             video.setAttribute('muted', '');
             video.setAttribute('autoplay', '');
