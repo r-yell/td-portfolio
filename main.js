@@ -421,6 +421,13 @@ function showProjectDetail(projectName) {
 
     // if project is true...
     if (project) {
+        // Get the correct scrollable container
+        const projectDetailContainer = document.querySelector('.project-detail-container');
+        
+        // Add a small delay to ensure content is loaded before scrolling
+        setTimeout(() => {
+            projectDetailContainer.scrollTop = 0;
+        }, 50);
         
         // add 'data-current-project' attribute to projectDetailPopup with the name 
         // of the current project as the value 
